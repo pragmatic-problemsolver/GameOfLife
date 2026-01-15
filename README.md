@@ -54,9 +54,12 @@ Added code as per the thought process explained above.
 Also added a test class to validate bear minimum 4 rules that were set.
 
 Assuming you are downloading this in your root folder, else replace ~ accordingly
+```bash
 javac -d out ~/GameOfLife/src/gameoflife/GameOfLife.java  ~/GameOfLife/src/gameoflife/GameOfLifeTest.java
+```
 
 run to get the output
+```bash
 java -cp out gameoflife.GameOfLife
 java -cp out gameoflife.GameOfLifeTest
-
+```
